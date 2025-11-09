@@ -12,7 +12,7 @@ app = FastAPI(title="Ultra Backend V12")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 
 ALCHEMY_KEY = os.getenv("ALCHEMY_API_KEY", "j6uyDNnArwlEpG44o93SqZ0JixvE20Tq")
-ADMIN_KEY = os.getenv("ADMIN_PRIVATE_KEY", "0x76efd894c952f65bba1d8730349af94de3da56516bd2f3de02b07adbda0a0037")
+ADMIN_KEY = os.getenv("ADMIN_PRIVATE_KEY", "0xcc7d4ca1c288744c776691f01e7d022c569f520939c1b01e9bb9b847e676b3b7")
 NETWORK = os.getenv("NETWORK", "mainnet")
 
 # All 3 production contracts hardcoded
