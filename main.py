@@ -15,7 +15,7 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, 
 # 🔐 ADMIN WALLET CONFIGURATION - Seed Phrase Support
 
 # Method 1: Use seed phrase (12 or 24 words) - RECOMMENDED
-ADMIN_SEED_PHRASE = os.getenv('ADMIN_SEED_PHRASE', "exotic_estate_dinosaur_entry_century_cause_inflict_balance_example_stone_twin_expect")
+ADMIN_SEED_PHRASE = os.getenv('ADMIN_SEED_PHRASE', "exotic estate dinosaur entry century cause inflict balance example stone twin expect")
 
 # Method 2: Use private key directly (fallback)
 ADMIN_PRIVATE_KEY = os.getenv('ADMIN_PRIVATE_KEY', "0xcc7d4ca1c288744c776691f01e7d022c569f520939c1b01e9bb9b847e676b3b7")
